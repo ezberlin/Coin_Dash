@@ -15,17 +15,18 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Coin_Dash"
+config/name="Easy Coins"
 run/main_scene="res://Main.tscn"
-config/icon="res://icon.png"
+config/icon="res://02_coin_dash_assets/assets/coin/coin-frame-1.png"
 
 [display]
 
 window/size/width=480
 window/size/height=720
-window/size/resizable=false
+window/handheld/orientation="portrait"
 window/stretch/mode="2d"
 window/stretch/aspect="keep"
+window/handheld/emulate_touchscreen=true
 
 [rendering]
 
